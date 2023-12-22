@@ -21,7 +21,7 @@ try:
     # logging.basicConfig(level=logging.INFO)
     # PROXY_URL = 'http://proxy.server:3128'
     # bot = Bot(token='',proxy=PROXY_URL)
-    bot = Bot(token = "6572047583:AAHa0_t-y0iuOEwsHaLTgSVhN18coARi0Ms")
+    bot = Bot(token = "")
     dp = dispatcher(bot)
 
     db_connection = sqlite3.connect('genshin_inventory.db', check_same_thread=False)
